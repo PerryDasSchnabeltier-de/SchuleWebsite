@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchuleWebsite - Willkommen</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">SchuleName</a>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Suchen...">
+            <button>Suchen</button>
+        </div>
+        <div class="claim">SchuleName – Offizielle Schulwebsite</div>
+        <button class="sidebar-toggle" id="sidebar-toggle">☰</button>
+    </header>
+
+    <div class="sidebar" id="sidebar">
+        <button class="sidebar-close" id="sidebar-close">✕</button>
+        <ul>
+            <li><a href="#">Schule/Leitung</a>
+                <ul>
+                    <li><a href="pages/schulleitung.html">Schulleiter</a></li>
+                    <li><a href="pages/schulgebäude.html">Schulgebäude</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Politik</a>
+                <ul>
+                    <li><a href="pages/schulrat.html">Schulrat</a></li>
+                </ul>
+            </li>
+            <li><a href="pages/daten.html">Daten über die Schule</a></li>
+            <li><a href="#">Bauen und Wohnen</a></li>
+            <li><a href="pages/galerie.html">Galerie</a></li>
+            <li><a href="#">Tourismus</a></li>
+            <li><a href="#">Mobilität</a></li>
+            <li><a href="pages/dienstleistungen.html">Dienstleistungen von A–Z</a></li>
+            <li><a href="pages/veranstaltungen.html">Veranstaltungen</a></li>
+            <li><a href="pages/kultur.html">Schulleben und Kultur</a></li>
+            <li><a href="pages/karriere.html">Karriere</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <section class="hero">
+            <img src="https://via.placeholder.com/1200x500/007bff/ffffff?text=Willkommen+an+der+SchuleName" alt="Schulgebäude">
+            <div class="hero-text">
+                <h1>Willkommen an der SchuleName</h1>
+                <p>Entdecken Sie unsere moderne Schule und unser vielfältiges Angebot.</p>
+                <a href="pages/ueber-uns.html" class="btn">Mehr erfahren</a>
+            </div>
+        </section>
+
+        <section class="events">
+            <h2>Schulveranstaltungen</h2>
+            <div class="event-cards">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200/28a745/ffffff?text=Schulkonzert" alt="Schulkonzert">
+                    <h3>Schulkonzert</h3>
+                    <p>Datum: 15.03.2024</p>
+                    <p>Ein musikalisches Highlight mit unseren Schülern.</p>
+                    <a href="pages/event1.html">Mehr</a>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200/dc3545/ffffff?text=Sporttag" alt="Sporttag">
+                    <h3>Sporttag</h3>
+                    <p>Datum: 20.04.2024</p>
+                    <p>Wettkämpfe und Spaß für alle.</p>
+                    <a href="pages/event2.html">Mehr</a>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200/ffc107/000000?text=Abschlussfeier" alt="Abschlussfeier">
+                    <h3>Abschlussfeier</h3>
+                    <p>Datum: 30.06.2024</p>
+                    <p>Feiern Sie mit uns die Absolventen.</p>
+                    <a href="pages/event3.html">Mehr</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="news">
+            <h2>Aktuelle Meldungen</h2>
+            <div class="news-slider" id="news-slider">
+                <div class="news-card">
+                    <h3>Neue AGs starten</h3>
+                    <p>Datum: 01.02.2024</p>
+                    <p>Entdecken Sie unsere neuen Arbeitsgemeinschaften.</p>
+                    <a href="pages/news1.html">Weiterlesen</a>
+                </div>
+                <div class="news-card">
+                    <h3>Schulpreis gewonnen</h3>
+                    <p>Datum: 10.02.2024</p>
+                    <p>Wir haben einen Preis für Umweltengagement erhalten.</p>
+                    <a href="pages/news2.html">Weiterlesen</a>
+                </div>
+                <!-- Mehr News-Karten -->
+            </div>
+            <div class="slider-controls">
+                <button id="prev">Vorher</button>
+                <button id="next">Nächste</button>
+            </div>
+        </section>
+
+        <section class="wissenswertes">
+            <h2>Wissenswertes</h2>
+            <div class="tiles">
+                <div class="tile">
+                    <img src="https://via.placeholder.com/100x100/6f42c1/ffffff?text=Pressemeldungen" alt="Pressemeldungen">
+                    <h3>Pressemeldungen</h3>
+                    <p>Aktuelle Pressemitteilungen der Schule.</p>
+                    <a href="pages/press.html">Mehr</a>
+                </div>
+                <div class="tile">
+                    <img src="https://via.placeholder.com/100x100/17a2b8/ffffff?text=Dienstleistungen" alt="Dienstleistungen">
+                    <h3>Dienstleistungen von A–Z</h3>
+                    <p>Alle Dienstleistungen im Überblick.</p>
+                    <a href="pages/dienstleistungen.html">Mehr</a>
+                </div>
+                <div class="tile">
+                    <img src="https://via.placeholder.com/100x100/e83e8c/ffffff?text=Daten" alt="Wichtigste Daten">
+                    <h3>Wichtigste Daten</h3>
+                    <p>Schlüsseldaten der Schule.</p>
+                    <a href="pages/daten.html">Mehr</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+        <section class="wissenswertes">
+            <h2>Wissenswertes</h2>
+            <div class="tiles">
+                <div class="tile">
+                    <img src="images/press.png" alt="Pressemeldungen">
+                    <h3>Pressemeldungen</h3>
+                    <p>Aktuelle Pressemitteilungen.</p>
+                    <a href="pages/press.html">Mehr</a>
+                </div>
+                <div class="tile">
+                    <img src="images/dienstleistungen.png" alt="Dienstleistungen">
+                    <h3>Dienstleistungen von A–Z</h3>
+                    <p>Alle Dienstleistungen im Überblick.</p>
+                    <a href="pages/dienstleistungen.html">Mehr</a>
+                </div>
+                <div class="tile">
+                    <img src="images/daten.png" alt="Wichtigste Daten">
+                    <h3>Wichtigste Daten</h3>
+                    <p>Schlüsseldaten der Stadt.</p>
+                    <a href="pages/daten.html">Mehr</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contact">
+            <h3>Kontakt</h3>
+            <form>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="E-Mail">
+                <textarea placeholder="Nachricht"></textarea>
+                <button>Senden</button>
+            </form>
+        </div>
+        <div class="links">
+            <a href="pages/impressum.html">Impressum</a>
+            <a href="pages/datenschutz.html">Datenschutz</a>
+            <a href="pages/barrierefreiheit.html">Barrierefreiheit</a>
+            <p>Öffnungszeiten: Mo-Fr 8-17 Uhr</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
